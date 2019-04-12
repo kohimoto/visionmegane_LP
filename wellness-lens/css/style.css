@@ -880,15 +880,12 @@ h4 {
 .gd_area .container h3{
   color: #fff;
 }
-<<<<<<< HEAD
-=======
 @media screen and (max-width: 800px) {
   .line .container {
     height: 4px;
     margin-bottom: 2rem;
   }
 }
->>>>>>> 805b3326ecadd5c906f7e7f81f459a1146426229
 
 /* =======================================================
 * recommend
