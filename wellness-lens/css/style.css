@@ -91,8 +91,6 @@ input, select {
   }
   .sp{
     display: block;
-    margin: 0 auto;
-    width: 335px;
   }
   .pc {
     display: none;
@@ -526,11 +524,15 @@ h4 {
   .main .sp_area h2 {
     padding-bottom: 2rem;
   }
-.main .yl_area .container_800 {
-  padding: 0;
-}
+  .main .yl_area .container_800 {
+    padding: 0;
+  }
   .main .yl_area .r_box {
     padding: 1.25rem 0;
+  }
+  .main .yl_area .r_box .sp {
+    margin: 0 auto;
+    width: 335px;
   }
   .main .yl_area .r_box .line {
     margin: 0.75rem 0;
@@ -1017,7 +1019,7 @@ h4 {
     margin-bottom: 2rem;
   }
   .gd_area .container {
-    padding: 1.75rem;
+    padding: 1.75rem 0rem;
   }
   .gd_area .container h3 {
     font-size: 0.8rem;
