@@ -350,15 +350,15 @@ h4 {
   .main .top .container .catch h1 .orna::before {
     top: 5px;
     left: 10px;
-    width: 290px;
+    width: 270px;
     height: 50px;
     border-radius: 10px;
   }
   .main .top .container .buy_btn {
     width: 180px;
     height: 180px;
-    right: 3%;
-    bottom: 20px;
+    right: 4%;
+    bottom: 30px;
   }
   .main .top .container .buy_btn p {
     font-size: 0.7rem;
@@ -411,7 +411,7 @@ h4 {
   background-color: #fff;
   color: #FF8E54;
   border-radius: 20px;
-  border: 1px solid #FF8E54;
+  border: 2px solid #FF8E54;
 }
 .main .sp_area .container {
 }
@@ -506,7 +506,16 @@ h4 {
     padding: 2rem 0;
   }
   .main .topic1 img.pic_03 {
-      padding: 1rem 0 1rem;
+    padding: 1rem 0 1rem;
+  }
+  .main .sp_area {
+    padding-top: 2rem;
+  }
+  .main .sp_area .container {
+    padding: 0 0 2rem;
+  }
+  .main .sp_area h2 {
+    padding-bottom: 2rem;
   }
 }
 /* =======================================================
@@ -688,7 +697,26 @@ h4 {
   .main .pd_area .img_box .box_inner:nth-child(2n) img {
     width: 100%;
   }
-
+  .main .syouhin{
+    padding: 2rem;
+    margin: 1rem 0;
+  }
+  .main .syouhin .s_ttl {
+    padding: 8px 12px;
+    font-size: 0.6rem;
+    margin: 1rem 0 0.8rem;
+    border-radius: 10px;
+  }
+  .main .syouhin p {
+    font-size: 0.7rem;
+  }
+  .main .syouhin span {
+    font-size: 0.6rem;
+  }
+  .main .pd_area.long .omotome {
+    font-size: 0.6rem;
+    padding-bottom: 0.5rem;
+  }
 }
 /* =======================================================
 * ttl_pc
