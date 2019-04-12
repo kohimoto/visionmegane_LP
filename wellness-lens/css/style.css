@@ -885,6 +885,12 @@ h4 {
     height: 4px;
     margin-bottom: 2rem;
   }
+  .gd_area .container {
+    padding: 1.75rem 2rem;
+  }
+  .gd_area .container h3 {
+    font-size: 0.8rem;
+  }
 }
 
 /* =======================================================
