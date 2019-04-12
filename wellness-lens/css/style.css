@@ -973,7 +973,7 @@ h4 {
     letter-spacing: 0;
   }
   .af_area .af_area_ttl p {
-    font-size: 0.8rem;
+    font-size: 0.7rem;
     position: static;
   }
   .af_area .af_area_box img {
@@ -1007,20 +1007,21 @@ h4 {
     margin-bottom: 0rem;
   }
   .af_area._c .af_area_ttl::before {
-    height: 60px;
+    height: 54px;
   }
   .af_area._c .af_area_ttl p {
     letter-spacing: 0;
   }
   .af_area._c .af_area_ttl span {
     top: 0.3rem;
+    right: -15px;
   }
   .af_area .af_area_ttl span {
-      font-size: 0.7rem;
-      width: 62px;
-      height: 62px;
-      top: 0;
-      padding: 24px 15px;
+    font-size: 0.7rem;
+    width: 62px;
+    height: 62px;
+    top: 0;
+    padding: 24px 15px;
   }
 }
 
