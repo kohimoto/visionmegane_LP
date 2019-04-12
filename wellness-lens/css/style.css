@@ -181,6 +181,12 @@ h4 {
   img {
     max-width: 100%;
   }
+  p{
+    font-size: 0.8rem;
+  }
+  small{
+    font-size: 0.6rem;
+  }
 }
 /* =======================================================
 * header
@@ -657,11 +663,11 @@ h4 {
     top: 1.1rem;
     left: 1rem;
     width: 6px;
-    height: 86px;
+    height: 78px;
     border-radius: 3px;
   }
   .main .pd_area.long .melit li.c_::before {
-    height: 56px;
+    height: 50px;
   }
   .main .pd_area .img_box .box_inner img.dokusen {
     padding: 10px 10px;
