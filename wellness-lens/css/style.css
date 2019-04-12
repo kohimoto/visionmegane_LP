@@ -91,6 +91,8 @@ input, select {
   }
   .sp{
     display: block;
+    margin: 0 auto;
+    width: 335px;
   }
   .pc {
     display: none;
