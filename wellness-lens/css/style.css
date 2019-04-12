@@ -406,11 +406,6 @@ h4 {
   padding-bottom: 5rem;
 }
 .main .sp_area .syouhin {
-  padding: 3rem;
-  margin: 0;
-  background-color: #fff;
-  color: #FF8E54;
-  border-radius: 20px;
   border: 2px solid #FF8E54;
 }
 .main .sp_area .container {
@@ -420,7 +415,6 @@ h4 {
 }
 .main .sp_area .syouhin h2 {
   -webkit-text-fill-color: #FF8E54;
-  padding: 0;
 }
 .main .sp_area .syouhin .s_ttl {
   border: 1px solid #FF8E54;
@@ -700,6 +694,7 @@ h4 {
   .main .syouhin{
     padding: 2rem;
     margin: 1rem 0;
+    border-radius: 10px;
   }
   .main .syouhin .s_ttl {
     padding: 8px 12px;
@@ -709,6 +704,10 @@ h4 {
   }
   .main .syouhin p {
     font-size: 0.7rem;
+  }
+  .main .syouhin h2{
+    padding-bottom: 0.5rem;
+    line-height: 1.4;
   }
   .main .syouhin span {
     font-size: 0.6rem;
