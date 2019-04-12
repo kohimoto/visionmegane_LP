@@ -182,7 +182,7 @@ h4 {
     max-width: 100%;
   }
   p{
-    font-size: 0.8rem;
+    font-size: 0.85rem;
   }
   small{
     font-size: 0.6rem;
@@ -516,20 +516,48 @@ h4 {
   .main .sp_area h2 {
     padding-bottom: 2rem;
   }
+.main .yl_area .container_800 {
+  padding: 0;
+}
   .main .yl_area .r_box {
     padding: 1.25rem 0;
   }
   .main .yl_area .r_box .line {
-    margin: 1rem 0;
+    margin: 0.75rem 0;
   }
   .main .yl_area .r_box .b_ttl {
-    font-size: 40px;
+    font-size: 2.5rem;
+  }
+  .main .yl_area .r_box .b_ttl span {
+    font-size: 2.75rem;
   }
   .main .yl_area small {
-      font-size: 0.6rem;
+    font-size: 0.6rem;
+    line-height: 2.1;
   }
   .main .yl_area .r_box .teiji {
     font-size: 0.8rem;
+  }
+  .main .yl_area .tag {
+    width: 108px;
+  }
+  .main .yl_area .tag p {
+    font-size: 0.9rem;
+    line-height: 1;
+    padding: 11px 10px;
+  }
+  .main .yl_area .r_box .b_inner h3 {
+    font-size: 1.5rem;
+  }
+  .main .yl_area .r_box .b_inner:nth-child(2n) p {
+    font-size: 0.75rem;
+  }
+  .main .yl_area .r_box p.sp span {
+    text-indent: 6em;
+    display: block;
+  }
+  .main .yl_area .r_box .line:nth-child(2n) {
+    margin-top: 0.35rem;
   }
 }
 /* =======================================================
@@ -1039,19 +1067,26 @@ h4 {
 }
 @media screen and (max-width: 800px) {
   .main .recommend {
-    padding: 2rem 0;
+    padding: 1.25rem 0;
   }
   .main .recommend p {
     font-size: 1.2rem;
     padding-bottom: 1rem;
+    padding-top: 0.25rem;
     line-height: 1;
   }
   .main .recommend h3{
     padding-bottom: 1rem;
     font-size: 0.8rem;
   }
+  .main .recommend .btn_box {
+    max-width: 335px;
+    margin: 0 auto;
+    overflow: hidden;
+  }
   .main .recommend .btn_box a {
-    margin: 0 7px 15px 0;
+    float: left;
+    margin: 0 15px 15px 0;
   }
   .main .recommend .btn_box a:nth-child(even) {
     margin: 0 0 15px ;
@@ -1066,6 +1101,10 @@ h4 {
   }
   .main .recommend .btn_box li.color {
       border-radius: 5px;
+  }
+  .main .recommend .btn_box:nth-of-type(2) a {
+    margin: 0 auto;
+    float: none;
   }
 }
 
