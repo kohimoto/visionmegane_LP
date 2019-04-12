@@ -111,7 +111,7 @@ html{
 }
 body {
   font-family: "Open Sans",'Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',"ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", sans-serif;
-  line-height: 1.8;
+  line-height: 1.6;
   font-weight: 400;
   font-size: 20px;
   color: #606060;
@@ -574,6 +574,18 @@ h4 {
   background: -webkit-linear-gradient(top, #ff8e54 0%,#ff6d6b 100%);
   background: linear-gradient(to bottom, #ff8e54 0%,#ff6d6b 100%);
   content: '';
+}
+.main .pd_area.long .melit li.a_{
+  border-radius: 10px 10px 0 0;
+}
+.main .pd_area.long .melit li.b_{
+  background-color: rgba(255,255,255,1.0);
+}
+.main .pd_area.long .melit li.c_{
+  border-radius: 0 0 10px 10px;
+}
+.main .pd_area.long .melit li.c_::before {
+  height: 54px;
 }
 .main .pd_area.long .melit li.a_{
   border-radius: 10px 10px 0 0;
