@@ -334,7 +334,7 @@ h4 {
 }
 @media screen and (max-width: 800px) {
   .main .top .container .catch {
-    top: 90px;
+    top: 70px;
   }
   .main .top .container .catch h1 .big {
     line-height: 2.6;
@@ -882,14 +882,13 @@ h4 {
 }
 .af_area .af_area_ttl h2 {
   text-align: left;
-  padding: 0 0 0 2rem;
+  padding: 0 0 0 1rem;
 }
 .af_area .af_area_ttl p {
   font-size: 1.2rem;
-  line-height: 1;
-  position: absolute;
   top: 3.2rem;
   left: 17rem;
+  padding: 0 0 0 1rem;
 }
 .af_area._b .af_area_ttl p {
   left: 15rem;
@@ -946,15 +945,44 @@ h4 {
   color: #fff;
 }
 @media screen and (max-width: 800px) {
+  .af_area .af_area_ttl {
+    padding: 0;
+    color: #FF7764;
+    text-align: left;
+    position: relative;
+    margin-bottom: 0rem;
+  }
+  .af_area .af_area_ttl p {
+    font-size: 0.8rem;
+    position: static;
+  }
   .line .container {
     height: 4px;
     margin-bottom: 2rem;
   }
   .gd_area .container {
-    padding: 1.75rem 2rem;
+    padding: 1.75rem;
   }
   .gd_area .container h3 {
     font-size: 0.8rem;
+  }
+  .gd_area .container.pd_100 {
+    margin-bottom: 2rem;
+  }
+  .af_area .af_area_ttl::before {
+      position: absolute;
+      top: 10px;
+      left: 0rem;
+      width: 6px;
+      height: 54px;
+      border-radius: 3px;
+  }
+  .af_area .af_area_ttl span {
+      font-size: 0.7rem;
+      width: 62px;
+      height: 62px;
+      top: 0;
+      padding: 24px 15px;
   }
 }
 
@@ -1010,15 +1038,34 @@ h4 {
   font-weight: bold;
 }
 @media screen and (max-width: 800px) {
+  .main .recommend {
+    padding: 2rem 0;
+  }
+  .main .recommend p {
+    font-size: 1.2rem;
+    padding-bottom: 1rem;
+    line-height: 1;
+  }
+  .main .recommend h3{
+    padding-bottom: 1rem;
+    font-size: 0.8rem;
+  }
   .main .recommend .btn_box a {
-    margin: 0 auto 10px
+    margin: 0 7px 15px 0;
+  }
+  .main .recommend .btn_box a:nth-child(even) {
+    margin: 0 0 15px ;
   }
   .main .recommend .btn_box li {
     width: 160px;
     font-size: 0.6rem;
+    padding: 0.5rem 0;
   }
   .main .recommend .btn_box+small {
     font-size: 0.6rem;
+  }
+  .main .recommend .btn_box li.color {
+      border-radius: 5px;
   }
 }
 
