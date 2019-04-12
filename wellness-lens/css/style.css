@@ -87,13 +87,21 @@ input, select {
 }
 @media screen and (max-width: 800px) {
   .container{
-    padding: 0 1rem 2rem;
+    padding: 0 4rem 2rem;
   }
   .sp{
     display: block;
   }
   .pc {
     display: none;
+  }
+  .container_800{
+    padding: 0 4rem 2rem;
+  }
+}
+@media screen and (max-width: 500px) {
+  .container{
+    padding: 0 1rem 2rem;
   }
   .container_800{
     padding: 0 1rem 2rem;
@@ -833,7 +841,7 @@ h4 {
   .point .container.orange {
     padding: 2.5rem 1rem 2rem;
     border-radius: 10px;
-    margin: 0 1rem 2rem;
+    margin: 0 4rem 2rem;
     width: auto;
   }
   .point .container.orange p {
@@ -849,6 +857,14 @@ h4 {
   }
   .point .notic small {
     font-size: 0.6rem;
+  }
+}
+@media screen and (max-width: 500px) {
+  .point .container.orange {
+    padding: 2.5rem 1rem 2rem;
+    border-radius: 10px;
+    margin: 0 1rem 2rem;
+    width: auto;
   }
 }
 /* =======================================================
