@@ -897,6 +897,12 @@ h4 {
     height: 4px;
     margin-bottom: 2rem;
   }
+  .gd_area .container {
+    padding: 1.75rem 2rem;
+  }
+  .gd_area .container h3 {
+    font-size: 0.8rem;
+  }
 }
 
 /* =======================================================
@@ -968,4 +974,22 @@ h4 {
 .footer .copy small{
   font-size: 0.7rem;
   letter-spacing: 0.1rem;
+}
+@media screen and (max-width: 800px) {
+  .footer {
+    padding: 1.5rem 0 0;
+  }
+  .footer .logo {
+    padding-bottom: 1.5rem;
+    line-height: 1;
+  }
+  .footer .logo img {
+    width: 115px;
+  }
+  .footer .copy {
+    padding: 0.5rem 0;
+  }
+  .footer .copy small {
+    font-size: 0.5rem;
+  }
 }
