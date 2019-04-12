@@ -483,6 +483,11 @@ h4 {
 .main p small.right {
   text-align: right;
 }
+@media screen and (max-width: 1000px) {
+  .main .yl_area .r_box .b_inner+p {
+    margin-left: 0;
+  }
+}
 @media screen and (max-width: 800px) {
   .main .topic1 {
     padding-top: 3rem;
@@ -507,6 +512,21 @@ h4 {
   }
   .main .topic1 img.pic_03 {
       padding: 1rem 0 1rem;
+  }
+  .main .yl_area .r_box {
+    padding: 1.25rem 0;
+  }
+  .main .yl_area .r_box .line {
+    margin: 1rem 0;
+  }
+  .main .yl_area .r_box .b_ttl {
+    font-size: 40px;
+  }
+  .main .yl_area small {
+      font-size: 0.6rem;
+  }
+  .main .yl_area .r_box .teiji {
+    font-size: 0.8rem;
   }
 }
 /* =======================================================
