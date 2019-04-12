@@ -87,13 +87,21 @@ input, select {
 }
 @media screen and (max-width: 800px) {
   .container{
-    padding: 0 1rem 2rem;
+    padding: 0 4rem 2rem;
   }
   .sp{
     display: block;
   }
   .pc {
     display: none;
+  }
+  .container_800{
+    padding: 0 4rem 2rem;
+  }
+}
+@media screen and (max-width: 500px) {
+  .container{
+    padding: 0 1rem 2rem;
   }
   .container_800{
     padding: 0 1rem 2rem;
@@ -111,7 +119,7 @@ html{
 }
 body {
   font-family: "Open Sans",'Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',"ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", sans-serif;
-  line-height: 1.6;
+  line-height: 1.8;
   font-weight: 400;
   font-size: 20px;
   color: #606060;
@@ -714,11 +722,11 @@ h4 {
     top: 1.1rem;
     left: 1rem;
     width: 6px;
-    height: 78px;
+    height: 86px;
     border-radius: 3px;
   }
   .main .pd_area.long .melit li.c_::before {
-    height: 50px;
+    height: 54px;
   }
   .main .pd_area .img_box .box_inner img.dokusen {
     padding: 10px 10px;
@@ -740,7 +748,7 @@ h4 {
     width: 100%;
   }
   .main .syouhin{
-    padding: 2rem;
+    padding: 1.5rem;
     margin: 1rem 0;
     border-radius: 10px;
   }
@@ -861,7 +869,7 @@ h4 {
   .point .container.orange {
     padding: 2.5rem 1rem 2rem;
     border-radius: 10px;
-    margin: 0 1rem 2rem;
+    margin: 0 4rem 2rem;
     width: auto;
   }
   .point .container.orange p {
@@ -877,6 +885,14 @@ h4 {
   }
   .point .notic small {
     font-size: 0.6rem;
+  }
+}
+@media screen and (max-width: 500px) {
+  .point .container.orange {
+    padding: 2.5rem 1rem 2rem;
+    border-radius: 10px;
+    margin: 0 1rem 2rem;
+    width: auto;
   }
 }
 /* =======================================================
@@ -980,9 +996,19 @@ h4 {
     position: relative;
     margin-bottom: 0rem;
   }
+  .af_area._c .af_area_ttl h2 {
+    font-size: 1rem;
+    letter-spacing: 0;
+  }
   .af_area .af_area_ttl p {
     font-size: 0.8rem;
     position: static;
+  }
+  .af_area .af_area_box img {
+    margin-bottom: 1.5rem;
+  }
+  .af_area .p10 {
+    padding-bottom: 1.5rem;
   }
   .line .container {
     height: 4px;
@@ -998,12 +1024,24 @@ h4 {
     margin-bottom: 2rem;
   }
   .af_area .af_area_ttl::before {
-      position: absolute;
-      top: 10px;
-      left: 0rem;
-      width: 6px;
-      height: 54px;
-      border-radius: 3px;
+    position: absolute;
+    top: 10px;
+    left: 0rem;
+    width: 6px;
+    height: 60px;
+    border-radius: 3px;
+  }
+  .af_area._c .af_area_ttl {
+    margin-bottom: 0rem;
+  }
+  .af_area._c .af_area_ttl::before {
+    height: 60px;
+  }
+  .af_area._c .af_area_ttl p {
+    letter-spacing: 0;
+  }
+  .af_area._c .af_area_ttl span {
+    top: 0.3rem;
   }
   .af_area .af_area_ttl span {
       font-size: 0.7rem;
